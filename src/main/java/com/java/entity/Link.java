@@ -1,0 +1,41 @@
+package com.java.entity;
+
+/**
+ * 关联连接
+ * @author zhou
+ *
+ */
+public class Link {
+
+	private Integer id; // id
+	private String linkName; // 链接名称
+	private String linkUrl; // 链接Urlַ
+	private Integer orderNo; // 链接编号
+	
+	public Integer getId() {
+		return id;
+	}
+	public void setId(Integer id) {
+		this.id = id;
+	}
+	public String getLinkName() {
+		return linkName;
+	}
+	public void setLinkName(String linkName) {
+		this.linkName = linkName;
+	}
+	public String getLinkUrl() {
+		return linkUrl;
+	}
+	public void setLinkUrl(String linkUrl) {
+		this.linkUrl = linkUrl;
+	}
+	public Integer getOrderNo() {
+		return orderNo;
+	}
+	public void setOrderNo(Integer orderNo) {
+		this.orderNo = orderNo;
+	}
+	
+	
+}
